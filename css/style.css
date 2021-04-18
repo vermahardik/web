@@ -9,8 +9,9 @@ hr{
   width: 6%;
 
 }
+h1{
+  color:#325288;
+}
 img{
-  height:400px;
-  width: 500px;
-
+    border-radius: 50%;
 }
