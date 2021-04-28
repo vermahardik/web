@@ -1,19 +1,73 @@
-h1{
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-body{
+body {
+  text-align: center;
   margin: 0;
+  background-color: #bbf1fa;
+  font-family: 'perpetua', serif;
 }
-.top{
+
+/*.top{
   border: solid 10px;
   border-color: black;
   padding: 20px;
   height: 200px;
   width: 200px;
   background-color: #F8F5F1;
+}*/
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 4.5rem;
+  color: #66BFBF;
 }
-.middle{
+h2{
+  line-height: 2;
+  font-size: 2.5rem;
+  margin-top: 40px;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.footer-link{
+  color: #11999E
+}
+h3{
+  color: #11999E;
+}
+.badminton{
+  border-radius: 50%;
+}
+.code{
+  border-radius: 50%;
+}
+.pic1{
+  border-radius: 50%;
+}
+.top {
+  position: relative;
+  padding: 100px;
+}
+
+.topcloud1 {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.topcloud {
+  position: relative;
+  left: 50px;
+  bottom: 350px;
+}
+
+.mountain {
+  margin-top: 70px;
+}
+
+.stud {
+  text-decoration: underline;
+}
+
+/*.middle{
+  display: none;
   height: 200px;
   width: 200px;
   border: solid 20px;
@@ -22,10 +76,11 @@ body{
   background-color: red;
 }
 .bottom{
+  display: none;
   height: 200px;
   border-color: black;
   margin-left: 500px;
   width: 200px;
   border: solid 10px;
   background-color: blue;
-}
+}*/
