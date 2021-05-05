@@ -115,6 +115,9 @@ p {
 .downloadbtn {
   margin: 5% 3% 5% 0%;
 }
+.card-body{
+  height: 310px;
+}
 
 .titleimage {
   width: 60%;
