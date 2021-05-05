@@ -1,15 +1,21 @@
 #title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
 }
-#pricing{
+
+#pricing {
   padding: 100px 150px;
-  text-align: center;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-black', sans-serif;
 }
 
 h1 {
@@ -31,7 +37,8 @@ h3 {
   font-family: 'Montserrat-black', sans-serif;
   font-weight: bold;
 }
-h4{
+
+h4 {
   font-size: 1.5rem;
   font-family: 'Montserrat-black', sans-serif;
   font-weight: bold;
@@ -59,21 +66,33 @@ p {
 }
 
 #features {
-  text-align: center;
   padding: 10% 5% 10%;
+  background-color: #fff;
+  position: relative;
+  top: -190px;
+  height: 350px;
 }
 
 #testimonials {
-  padding-bottom: 30px;
-  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 50px;
   background-color: #FA8072;
   color: #fff;
 }
 
 #press {
-  text-align: center;
   background-color: #FA8072;
   padding-bottom: 3%;
+}
+
+#cta {
+  background-color: #ff4c78;
+  padding: 7% 15% 11%;
+}
+
+#footer {
+  background-color: #fff;
+  padding: 10% 35% 5%;
 }
 
 .presss {
@@ -90,7 +109,6 @@ p {
   width: 20%;
   margin: 20px;
   border-radius: 100%;
-  text-align: center;
 }
 
 .nav-item {
@@ -110,28 +128,95 @@ p {
   padding: 0 0 4.5rem;
 }
 
-.container-fluid {
-  padding: 3% 15%;
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#features .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 .navbar-collapse {
   position: absolute;
   right: 12px;
 }
-.carousel-item{
+
+.carousel-item {
   padding: 2% 15%;
 }
+
 .downloadbtn {
   margin: 5% 3% 5% 0%;
 }
-.card-body{
+
+.card-body {
   height: 310px;
 }
-.pri-colu{
+
+.pri-colu {
   padding: 3% 2%;
 }
 
 .titleimage {
   width: 60%;
   transform: rotate(25deg);
+  position: relative;
+  left: 10%;
+}
+
+.ctadownloadbtn2 {
+  color: #000;
+  margin-left: 30px;
+}
+
+.ctah3 {
+  font-size: 3.5rem;
+  font-family: 'Montserrat-Black', sans-serif;
+  padding-bottom: 7%;
+  color: #fff;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.icon1 {
+  padding: 0 1%;
+  color: #808080;
+}
+
+@media (min-width: 986px) and (max-width: 1082px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .titleimage {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  .titlerow {
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    left: 400px;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 30px;
+    right: -50px;
+  }
+
+  .titlerow {
+    padding-top: 10px;
+  }
+
+  #features {
+    top: -50px;
+    padding: 2% 5% 2%;
+    height: 500px;
+  }
 }
