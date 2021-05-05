@@ -2,6 +2,10 @@
   background-color: #ff4c68;
   color: #fff;
 }
+#pricing{
+  padding: 100px 150px;
+  text-align: center;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -24,6 +28,11 @@ h2 {
 
 h3 {
   font-size: 1.2rem;
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: bold;
+}
+h4{
+  font-size: 1.5rem;
   font-family: 'Montserrat-black', sans-serif;
   font-weight: bold;
 }
@@ -117,6 +126,9 @@ p {
 }
 .card-body{
   height: 310px;
+}
+.pri-colu{
+  padding: 3% 2%;
 }
 
 .titleimage {
