@@ -25,14 +25,6 @@ hr{
   margin: 50px auto;
 }
 
-/*.top{
-  border: solid 10px;
-  border-color: black;
-  padding: 20px;
-  height: 200px;
-  width: 200px;
-  background-color: #F8F5F1;
-}*/
 .contact{
   width:50%;
   margin: 20px auto;
@@ -177,4 +169,12 @@ p{
   width: 200px;
   border: solid 10px;
   background-color: blue;
+}*/
+/*.top{
+  border: solid 10px;
+  border-color: black;
+  padding: 20px;
+  height: 200px;
+  width: 200px;
+  background-color: #F8F5F1;
 }*/
